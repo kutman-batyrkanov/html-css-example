@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.txt {
+.button {
     display: inline block;
     padding-top: 6px;
     padding-left: 12px;
@@ -11,11 +11,20 @@
     border-color: hsl(211, 100%, 50%);
     font-family: 'Roboto', sans-serif;
 }
-.txt:hover {
+.button:hover {
     background-color: hsl(211,100%,35%);
     border-color: hsl(211, 100%, 40%);
 }
-.txt:active {
+.button:active {
     background-color: hsl(211,100%,35%);
     border-color: hsl(211, 100%, 40%);
+}
+.button.small {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid 1px black;
 }
