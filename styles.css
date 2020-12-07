@@ -39,3 +39,11 @@ button.large {
     background-color: hsl(0,100%,50%);
     border-color: hsl(0, 100%, 50%);
 }
+button.notok {
+    background-color: hsl(118, 100%, 50%);
+    border-color: hsl(118, 100%, 50%);
+}
+.button:disabled {
+    background-color: hsl(61, 100%, 43%);
+    border-color: hsl(61, 100%, 50%);
+}
