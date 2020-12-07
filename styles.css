@@ -7,17 +7,17 @@
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 6px;
-    background-color: hsl(211,100%,50%);
-    border-color: hsl(211, 100%, 50%);
+    background-color: hsl(0,100%,50%);
+    border-color: hsl(0, 100%, 50%);
     font-family: 'Roboto', sans-serif;
 }
 .button:hover {
-    background-color: hsl(211,100%,35%);
-    border-color: hsl(211, 100%, 40%);
+    background-color: hsl(0,100%,35%);
+    border-color: hsl(0, 100%, 40%);
 }
 .button:active {
-    background-color: hsl(211,100%,35%);
-    border-color: hsl(211, 100%, 40%);
+    background-color: hsl(0,100%,35%);
+    border-color: hsl(0, 100%, 40%);
 }
 .button.small {
     padding-top: 4px;
@@ -26,7 +26,6 @@
     padding-right: 8px;
     font-size: 14px;
     border-radius: 5px;
-    border: solid 1px black;
 }
 button.large {
     padding-top: 8px;
