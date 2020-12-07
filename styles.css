@@ -11,3 +11,7 @@
     border-color: hsl(211, 100%, 50%);
     font-family: 'Roboto', sans-serif;
 }
+.txt:hover {
+    background-color: hsl(211,100%,40%);
+    border-color: hsl(211, 100%, 40%);
+}
